@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/VMP_scouting/nba_com_golden_era.html"
+    }
+  ]
+}
