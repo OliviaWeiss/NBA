@@ -452,7 +452,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
       <span class="sni" id="sni-leaders" onclick="showLeaders()">Leaders</span>
       <span class="sni" id="sni-teams" onclick="showTeams()">Teams</span>
       <span class="sni" id="sni-players" onclick="showPlayers()">Players</span>
-      <span class="sni active" id="sni-scout" onclick="hideAll()" style="cursor:pointer">&#9733; Golden Era Scout</span>
+      <span class="sni active" id="sni-scout" onclick="hideAll()" style="cursor:pointer">&#9733; Golden Era Trading</span>
       <span class="sni" id="sni-wishlist" onclick="showWishlist()" style="margin-left:auto">&#9825; Wishlist <span id="wishlist-count-badge" style="display:none;background:#C8102E;color:#fff;font-size:9px;font-family:Share Tech Mono,monospace;padding:1px 5px;border-radius:10px;margin-left:4px;vertical-align:middle">0</span></span>
     </div>
   </div>
@@ -573,7 +573,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
                 <option value="1998-1999">1998/1999</option><option value="1999-2000">1999/2000</option>
               </select>
             </div>
-            <button onclick="hidePlayers()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Scout</button>
+            <button onclick="hidePlayers()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Trading</button>
           </div>
         </div>
         <div id="top10-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:14px"></div>
@@ -606,7 +606,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
                 <option value="1998-1999">1998/1999</option><option value="1999-2000">1999/2000</option>
               </select>
             </div>
-            <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Scout</button>
+            <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Trading</button>
           </div>
         </div>
         <div style="display:grid;grid-template-columns:40px 1fr 80px 90px 90px 90px 90px 80px;gap:0;background:#1B2A4A;border-radius:3px 3px 0 0;padding:8px 14px;margin-bottom:1px">
@@ -632,7 +632,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
             <div style="font-family:'Bebas Neue',cursive;font-size:28px;color:#1B2A4A;letter-spacing:.06em">Team VPM Rankings</div>
             <div style="font-family:'Share Tech Mono',monospace;font-size:11px;color:#A89880;margin-top:3px">All 30 franchises ranked by average player VPM across the decade</div>
           </div>
-          <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Scout</button>
+          <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Trading</button>
         </div>
         <div id="teams-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px"></div>
       </div>
@@ -647,7 +647,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
         <div style="font-family:'Bebas Neue',cursive;font-size:28px;color:#1B2A4A;letter-spacing:.06em">&#9829; My Wishlist</div>
         <div style="font-family:'Share Tech Mono',monospace;font-size:11px;color:#A89880;margin-top:3px" id="wishlist-subtitle">Saved players you want to revisit</div>
       </div>
-      <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Scout</button>
+      <button onclick="hideAll()" style="background:transparent;border:1px solid #C8BEA8;color:#1B2A4A;font-family:'Share Tech Mono',monospace;font-size:10px;padding:7px 16px;border-radius:2px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase">&#8592; Back to Trading</button>
     </div>
     <div id="wishlist-empty" style="display:none;text-align:center;padding:60px 20px">
       <div style="font-family:'Bebas Neue',cursive;font-size:48px;color:#D0C8B8;letter-spacing:.06em">No Players Saved</div>
@@ -668,7 +668,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair}
 
 <!-- Compare View -->
 <div class="compare-view" id="compare-view">
-  <div class="compare-header"><div class="compare-title">Side by Side Comparison</div><button class="back-btn" onclick="closeCompare()">&#8592; Back to Scout</button></div>
+  <div class="compare-header"><div class="compare-title">Side by Side Comparison</div><button class="back-btn" onclick="closeCompare()">&#8592; Back to Trading</button></div>
   <div class="compare-body"><div class="compare-table" id="compare-table"></div></div>
 </div>
 
